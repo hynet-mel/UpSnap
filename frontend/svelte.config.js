@@ -25,7 +25,10 @@ const config = {
 				'/users',
 				'/settings'
 			]
-		}
+		},
+    paths: {
+      relative: true;
+    }
 	}
 };
 
