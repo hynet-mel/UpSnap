@@ -14,6 +14,9 @@ const config = {
 		adapter: adapter({
 			fallback: 'index.html'
 		}),
+    paths: {
+      relative: true
+    },
 		prerender: {
 			entries: [
 				'/',
@@ -26,9 +29,6 @@ const config = {
 				'/settings'
 			]
 		},
-    paths: {
-      relative: true;
-    }
 	}
 };
 
